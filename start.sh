@@ -1,2 +1,3 @@
 #!/bin/bash
-node app/index.js
+npm install
+node index.js
