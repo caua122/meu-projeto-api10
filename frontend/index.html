@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Scripts CS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Buscador de Scripts</h1>
+
+        <div class="card">
+            <label for="scriptId">ID do Script:</label>
+            <input id="scriptId" type="text" placeholder="Ex: cactus10">
+
+            <button onclick="buscarScript()">Buscar</button>
+        </div>
+
+        <pre id="resultado" class="resultado"></pre>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
